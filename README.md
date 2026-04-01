@@ -6,7 +6,7 @@ Responsive personal portfolio website built with HTML, CSS, and vanilla JavaScri
 - Contact form using Formspree
 - Smooth scrolling navigation
 
-  ## Tech Stack
+## Tech Stack
 - HTML
 - CSS
 - JavaScript
@@ -18,7 +18,7 @@ Responsive personal portfolio website built with HTML, CSS, and vanilla JavaScri
 - How to integrate Formspree for backend-less forms
 - Improved my CSS layout and responsive design skills
 
-  ## Future Improvements
+## Future Improvements
 - Add dark mode
 - Recreating the Front-End using React.JS
 - Add simple animations
