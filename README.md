@@ -1,5 +1,5 @@
 # My Portfolio Website
-Responsive personal portfolio website built with HTML, CSS, and vanilla JavaScript, featuring a contact form (Formspree) and deployed on Netlify.
+Responsive personal website built with HTML, CSS, and vanilla JavaScript, featuring a contact form (Formspree) and deployed on Netlify.
 
 # Features
 - Responsive design (mobile + desktop)
@@ -17,9 +17,12 @@ Responsive personal portfolio website built with HTML, CSS, and vanilla JavaScri
 - How to deploy a site using Netlify
 - How to integrate Formspree for backend-less forms
 - Improved my CSS layout and responsive design skills
+- How to render data on the DOM using Javascript
+- How to fetch and work with JSON data 
+- How frontend and backend services connect (using Formspree)
 
 ## Future Improvements
 - Add dark mode
 - Recreating the Front-End using React.JS
 - Add simple animations
-- Make a custom backend using Node.JS and express for the forms
+- Make a custom backend using Node.JS and Express for the forms
