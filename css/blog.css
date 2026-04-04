@@ -1,0 +1,159 @@
+/* p{
+    color:white;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.blog-post {
+  background: #111;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.blog-post h2 {
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.read-more {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+} */
+
+/* Modal */
+/* .modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: #111;
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 10px;
+} */
+/* ===============================
+   BLOG POSTS
+   =============================== */
+.blog-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+}
+
+.blog-page h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Each blog post card */
+.blog-post {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.blog-post:hover {
+  transform: translateY(-5px);
+  background-color: #2a2a2a;
+}
+
+.blog-post h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+.blog-post p {
+  margin-bottom: 1.2rem;
+}
+
+.blog-post .date {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+
+.blog-post .excerpt {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #d62828;
+}
+
+/* =========================
+   MARKDOWN POST CONTENT FIX
+   ========================= */
+
+#post-content {
+  line-height: 1.8;
+  font-size: 16px;
+  color: white;
+}
+
+/* paragraphs */
+#post-content p {
+  margin: 0 0 1.2rem 0;
+}
+
+/* headings */
+#post-content h1 {
+  margin: 2rem 0 1rem;
+}
+
+#post-content h2 {
+  margin: 1.8rem 0 1rem;
+}
+
+#post-content h3 {
+  margin: 1.5rem 0 0.8rem;
+}
+
+/* lists */
+#post-content ul,
+#post-content ol {
+  margin: 0 0 1.2rem 1.5rem;
+}
+
+#post-content li {
+  margin-bottom: 0.5rem;
+}
+
+/* code blocks */
+#post-content pre {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+}

@@ -1,0 +1,297 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* Make sure the body takes full height */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Particles.js container */
+#particles-js {
+  position: fixed; /* fixed ensures it stays while scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* put it behind other content */
+  background-color: #000; /* fallback background */
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+}
+/*Navbar Styles*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    flex-wrap: wrap;
+}
+.navbar ul{
+    display:flex;
+    list-style: none;
+    gap: 70px;
+}
+.navbar ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    color:grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+.logo{
+    font-weight: bold;
+    text-decoration:none;
+    font-size:2em;
+}
+.logo:hover{cursor: default;}
+
+/*Profile Picture Styles*/
+.profile{
+    display:flex;
+    justify-content: center;
+    gap:5rem;
+    padding-top:6vh;
+}
+.profile-pic-container img{
+    width:500px;
+    height:500px;
+}
+.profile-text{
+    color:white;
+    align-self: center;
+    text-align: center;
+}
+/*Profile Text Styles*/
+.intro-text{
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.name-text{
+    font-size:1.75rem;
+    margin-bottom: 10px;
+}
+.intro-text2{
+    margin-bottom: 10px;
+}
+/*Button Styles*/
+.btn-container{
+    margin-top:25px;
+    display: flex;
+    gap:1rem;
+}
+.btn{
+    transition:all 500ms ease;
+    padding: 1rem 1.51rem;
+    width:11rem;
+    border-radius: 2rem;
+}
+.btn-cv, .btn-gb{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+.btn-cv:hover, .btn-gb:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.social-container{
+    margin-top:1rem;
+    display:flex;
+    justify-content: center;
+    gap:1.2rem;
+}
+.social-container img{
+    width:40px;
+    height:40px;
+}
+/*About Section Styles*/
+.about{
+    color:white;
+    margin:0 10rem;
+    padding-top:6vh;
+    margin-top:5rem;
+}
+.about-me{
+    text-align: center;
+    margin-bottom:2rem;
+}
+.about-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:5rem;
+}
+.about-text p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.about-pic img{
+    width:500px;
+    height:500px;
+    border-radius: 96%;
+}
+/*Skills Section Styles*/
+.skills{
+    color:white;
+    margin:0 10rem;
+    padding-top:6vh;
+    margin-top:5rem;
+}
+.skills-title{
+    text-align: center;
+    margin-bottom:2rem;
+    font-size: 3.2rem;
+}
+.skills-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:3rem;
+    max-width: 900px;
+    margin:0 auto;
+}
+.skill-box {
+    background: #111111;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.skill-box:hover{
+    background-color: rgb(83, 83, 83);
+    cursor: pointer;
+}
+.skill-box img{
+    width:80px;
+    height:80px;
+    margin-top: 25px;
+}
+/* Contact Form */
+.contact{
+    color:rgb(255, 255, 255);
+    margin:0 28rem;
+    padding-top:6vh;
+    margin-top:5rem;
+}
+.contact-title{
+    text-align: center;
+    font-size:3rem;
+    margin-bottom:2rem;
+}
+.contact-form{
+    display:flex;
+    flex-direction: column;
+    width:600px;
+    gap:2rem;
+}
+.contact-form input, .contact-form textarea{
+    color:rgb(220, 220, 220);
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgb(61, 61, 61);
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: white;
+}
+
+.contact-form textarea{
+    height:150px;
+}
+.btn-submit{
+    background-color: white;
+    color:black;
+    margin:0 14rem;
+}
+.btn-submit:hover{
+    background-color:black;
+    color:#ffffff;
+}
+.post-markdown{
+    color:white;
+}
+.post-markdown h1, .post-markdown h2, .post-markdown h3 {
+    color: white;
+}
+/*.This for the posts within the blog   */
+.post-page{
+    max-width: 800px;            /* keep content readable */
+    margin: 3rem auto;           /* center horizontally with top/bottom spacing */
+    padding: 2rem 2rem 3rem 2rem;/* some padding inside the box */
+    background-color: #1a1a1a; /* dark background for contrast */
+    border-radius: 12px;         /* rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* subtle shadow */
+    color: white;            
+}
+.post-markdown{
+    text-align: left;               /* center headers & paragraphs */
+    line-height: 1.7;
+}
+/*. Link sizes with the rest of the text and underline them */
+#post-content a{
+    font-size:inherit;
+    text-decoration: underline;;
+}
+/* For the code copy btn*/
+/* Copy button styling for code blocks */
+.copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.copy-btn:hover {
+    background: #555;
+}
+
+/* Optional: make sure code blocks fit nicely in your dark theme */
+#post-content pre {
+    background: #1e1e1e;
+    color: #fff;
+    padding: 15px;
+    overflow-x: auto;
+    border-radius: 6px;
+}
+
+
+/* @media (max-width: 900px) {
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .navbar ul {
+        gap: 15px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+} */

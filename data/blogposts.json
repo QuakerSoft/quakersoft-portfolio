@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "The Purpose of this Blog",
+    "date": "Feb 17, 2026",
+    "excerpt": "I wanted to share my journey and insights as I continue to learn, grow and build cool things.",
+    "file": "first.md"
+  },
+  {
+    "id": 2,
+    "title": "Why I Built My Website From Scratch",
+    "date": "Jan 5, 2026",
+    "excerpt": "Instead of using templates, I wanted to learn real web fundamentals.",
+    "file": "portfolio.md"
+  }
+]

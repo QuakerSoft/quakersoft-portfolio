@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Porfolio</title>    
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Particles.js background -->
+    <div id="particles-js"></div>
+    <div class="navbar">
+        <a href="#Home" class ="logo">Devin <span>Como</span></a>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+    <section class ="profile">
+        <div class="profile-pic-container">
+            <img src="images/mountainroad.png" alt="Profile Picture">
+        </div>
+        <div class="profile-text">
+            <p class ="intro-text">Hello, I'm</p>
+            <h1 class ="name-text">Devin Como</h1>
+            <p class ="intro-text2">CS Student | Aspiring Developer | Tech Enthusiast</p>
+            <div class="btn-container">
+                <a href= "/assets/devin-como-resume.pdf" class="btn btn-cv">Download CV</a>
+                <a href="#Contact" class="btn btn-gb">Contact</a>
+            </div>
+            <div class="social-container">
+                <a href="https://www.linkedin.com/in/devin-como/"><img src="images/linkedinlogo.png" alt="LinkedIn"></a>
+                <a href="https://github.com/QuakerSoft"><img src="images/github-white-icon.webp" alt="GitHub"></a>
+            </div>
+        </div>
+    </section>
+    <section class ="about" id ="about">
+        <h2 class ="about-me">About Me</h2>
+        <div class="about-container">
+            <div class ="about-text">
+                <p>Hi, I'm Devin Como, a Computer Science student with a strong interest in software development and technology. Right now I'm currently focused on building backend services specifically with Springboot. 
+                I figured this path made the most sense for me since I already have a strong background in Java</p>
+            </div>
+             <div class ="about-pic">
+                <img src="/images/keyboardblackwhite.jpg" alt="About Me Picture">
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2 class ="skills-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h2>Java</h2>
+                <img src="/images/javalogo.png">
+            </div>
+            <div class ="skill-box">
+                <h2>Javascript</h2>
+                <img src="images/javasciptlogo.jpg">
+            </div>
+            <div class ="skill-box">
+                <h2>C/C++</h2>
+                <img src="/images/sqllogo.png">
+            </div>
+            <div class="skill-box">
+                <h2>SpringBoot</h2>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" />
+          
+            </div>
+            <div class ="skill-box">
+                <h2>React JS</h2>
+                <img src="/images/react.png">
+            </div>
+            <div class="skill-box">
+                <h2>MySQL</h2>
+                <img src="/images/mysqllogo.png">
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="Contact">
+        <h2 class="contact-title">Contact Me</h2>
+        <form class="contact-form" action="https://formspree.io/f/xnjovkrv" method="POST">
+            <input type="text" name="name"placeholder="Your Name" required>
+            <input type="email" name="emai"placeholder="Your Email" required>
+            <textarea name="message"placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-submit">Submit</button>
+        </form>
+    </section>
+    <!-- Particles.js library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Your custom particles config -->
+    <script src="/js/particles-config.js"></script>
+
+  </body>
+</html> 
